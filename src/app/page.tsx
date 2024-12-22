@@ -16,7 +16,7 @@ export default async function Home() {
   return (
     <main className="container  bg-slate-400 mx-auto px-4 py-8">
 <h1 className="text-3xl text-white bg-slate-600 border border-blue-400 font-bold px-4 py-8 mb-6 rounded-lg shadow-lg text-center">
-  Remote Software Development Jobs
+  Job Search Engine with Remotive API & NEXT.js
 </h1>
 
       <JobList jobs={jobs} />
