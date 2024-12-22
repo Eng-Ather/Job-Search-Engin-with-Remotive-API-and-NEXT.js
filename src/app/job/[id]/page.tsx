@@ -20,7 +20,7 @@ export default async function JobPage({ params }: { params: { id: string } }) {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <Link href="/" className="text-blue-600 hover:underline mb-4 inline-block">
+      <Link href="/" className="text-white hover:underline mb-4 inline-block">
         &larr; Back to all jobs
       </Link>
       <div className="bg-white shadow-md rounded-lg p-6 mt-4">
